@@ -1,21 +1,25 @@
 #include <stdio.h>
 #include <iostream>
+#define LEN(arr) ((int) (sizeof (arr) / sizeof (arr)[0]))
 using namespace std;
 const short ndim = 8;
+const short nrange = 12;
 
-void printArray(int** arr) {
+void printArray(int* arr) {
+    for(int j=0; j<ndim; j++) {
+        cout << arr[j] << " ";
+    }
+    cout << endl;
+}
+
+void print2DArray(int** arr) {
     for(int i=0; i<(2*ndim); i++) {
-        for(int j=0; j<ndim; j++) {
-            cout << arr[i][j] << " ";
-        }
-        cout << endl;
+        printArray(arr[i]);
     }
 }
 
-
-int** MoveOneStep(int* p, short Cmax)
-{
-    int** pp = new int* [ndim];
+int** MoveOneStep(int* p, short Cmax) {
+    int** pp = new int* [2*ndim];
     int* p1 = new int [ndim];
     int* p2 = new int [ndim];
     short i, j=0, k;
@@ -27,26 +31,36 @@ int** MoveOneStep(int* p, short Cmax)
         if(p[i]<Cmax-1) {
             ++p1[i];
             pp[j] = new int [ndim];
-            for(k=0; k<ndim; k++) pp[j][k] = p1[k];
+            for(k=0; k<ndim; ++k) pp[j][k] = p1[k]; 
             j++;
         }
         if(p[i]>0) {
             --p2[i];
             pp[j] = new int [ndim];
-            for(k=0; k<ndim; k++) pp[j][k] = p2[k];
+            for(k=0; k<ndim; ++k) pp[j][k] = p2[k];
             j++;
         }
     }
+    printf("sizeof(pp): %d\n",LEN(pp));
+    printf("sizeof(pp[0]): %d\n",LEN(pp[0]));
     return pp;
 }
 
-int main()
-{
-    short nrange = 12;
+long long int* WhichGrid(int** points, int** grids) {
+    long long int* n = new long long int [nrange^ndim];
+    for(long long int i=0; i<sizeof(points); i++) {
+
+    }
+    return n;
+}
+
+int main() {
     int** coors;
     int startpoint[8] = {6,6,6,6,6,6,6,6};
     coors = MoveOneStep(startpoint,nrange);
-    printArray(coors);
+    printf("sizeof(coors): %d\n",LEN(coors));
+    printf("sizeof(coors[0]): %d\n",LEN(coors[0]));
+    print2DArray(coors);
     return 0;
 }
 
