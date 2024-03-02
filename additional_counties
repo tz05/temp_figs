@@ -1,0 +1,107 @@
+
+         state          county
+1      Arizona          Apache
+2      Arizona          Mohave
+3      Arizona          Navajo
+4      Arizona      Santa Cruz
+5   California           Butte
+6   California       Del Norte
+7   California        Humboldt
+8   California        Imperial
+9   California            Kern
+10  California           Kings
+11  California            Lake
+12  California          Merced
+13  California            Mono
+14  California            Napa
+15  California          Orange
+16  California      San Benito
+17  California San Luis Obispo
+18  California          Sierra
+19  California          Solano
+20  California         Ventura
+21    Colorado       Archuleta
+22    Colorado         Chaffee
+23    Colorado     Clear Creek
+24    Colorado          Gilpin
+25    Colorado        Hinsdale
+26    Colorado         Jackson
+27    Colorado            Lake
+28    Colorado       Montezuma
+29    Colorado          Pitkin
+30    Colorado           Routt
+31    Colorado        San Juan
+32    Colorado          Summit
+33    Colorado          Teller
+34       Idaho        Boundary
+35       Idaho          Cassia
+36       Idaho           Clark
+37       Idaho      Clearwater
+38       Idaho          Elmore
+39       Idaho             Gem
+40       Idaho        Kootenai
+41       Idaho           Latah
+42       Idaho           Lewis
+43       Idaho        Minidoka
+44       Idaho           Power
+45     Montana        Big Horn
+46     Montana      Broadwater
+47     Montana         Cascade
+48     Montana      Deer Lodge
+49     Montana        Flathead
+50     Montana        Gallatin
+51     Montana         Glacier
+52     Montana            Lake
+53     Montana         Liberty
+54     Montana         Madison
+55     Montana         Meagher
+56     Montana            Park
+57     Montana         Ravalli
+58     Montana      Stillwater
+59     Montana           Teton
+60     Montana           Toole
+61     Montana     Yellowstone
+62      Nevada          Eureka
+63      Nevada          Washoe
+64      Nevada      White Pine
+65  New Mexico          Chaves
+66  New Mexico       Guadalupe
+67  New Mexico         Hidalgo
+68  New Mexico        Valencia
+69      Oregon            Coos
+70      Oregon           Crook
+71      Oregon      Hood River
+72      Oregon         Jackson
+73      Oregon         Lincoln
+74      Oregon          Marion
+75      Oregon          Morrow
+76      Oregon       Multnomah
+77      Oregon         Sherman
+78      Oregon        Umatilla
+79      Oregon           Union
+80      Oregon      Washington
+81      Oregon         Wheeler
+82      Oregon         Yamhill
+83        Utah          Carbon
+84        Utah         Daggett
+85        Utah            Iron
+86        Utah          Tooele
+87        Utah          Uintah
+88        Utah         Wasatch
+89  Washington          Asotin
+90  Washington          Benton
+91  Washington           Clark
+92  Washington        Columbia
+93  Washington         Douglas
+94  Washington           Ferry
+95  Washington            King
+96  Washington           Lewis
+97  Washington          Pierce
+98  Washington          Skagit
+99  Washington       Snohomish
+100 Washington         Whatcom
+101    Wyoming          Carbon
+102    Wyoming        Converse
+103    Wyoming         Laramie
+104    Wyoming           Teton
+105    Wyoming        Washakie
