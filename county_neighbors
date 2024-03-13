@@ -1,0 +1,360 @@
+    from cnt1_state     cnt1_county   to cnt2_state     cnt2_county                   fire_year1             fire_year2                eligible_year
+2     95    Arizona         Cochise   99    Arizona        Greenlee                         2017       2021, 2020, 2018                         2017
+4     95    Arizona         Cochise  106    Arizona      Santa Cruz                         2017                     NA                         2017
+5     95    Arizona         Cochise 1810 New Mexico         Hidalgo                         2017                     NA                         2017
+6     96    Arizona        Coconino   97    Arizona            Gila 2019, 2018, 2017, 2021, 2020       2021, 2019, 2020                   2017, 2018
+7     96    Arizona        Coconino  102    Arizona          Mohave 2019, 2018, 2017, 2021, 2020                     NA 2017, 2018, 2019, 2020, 2021
+8     96    Arizona        Coconino  103    Arizona          Navajo 2019, 2018, 2017, 2021, 2020                     NA 2017, 2018, 2019, 2020, 2021
+9     96    Arizona        Coconino  107    Arizona         Yavapai 2019, 2018, 2017, 2021, 2020             2021, 2017             2018, 2019, 2020
+10    96    Arizona        Coconino 2794       Utah            Kane 2019, 2018, 2017, 2021, 2020                     NA 2017, 2018, 2019, 2020, 2021
+11    96    Arizona        Coconino 2800       Utah        San Juan 2019, 2018, 2017, 2021, 2020                     NA 2017, 2018, 2019, 2020, 2021
+13    97    Arizona            Gila   98    Arizona          Graham                         2020       2017, 2021, 2018                         2020
+15    97    Arizona            Gila  103    Arizona          Navajo                         2020                     NA                         2020
+17    97    Arizona            Gila  107    Arizona         Yavapai                         2020             2021, 2017                         2020
+18    98    Arizona          Graham   94    Arizona          Apache                   2017, 2021                   2018                   2017, 2021
+19    98    Arizona          Graham   95    Arizona         Cochise                   2017, 2021                   2017                         2021
+20    98    Arizona          Graham   97    Arizona            Gila                   2017, 2021       2021, 2019, 2020                         2017
+21    98    Arizona          Graham   99    Arizona        Greenlee                   2017, 2021       2021, 2020, 2018                         2017
+22    98    Arizona          Graham  103    Arizona          Navajo                   2017, 2021                     NA                   2017, 2021
+23    98    Arizona          Graham  104    Arizona            Pima                   2017, 2021             2017, 2020                         2021
+24    98    Arizona          Graham  105    Arizona           Pinal                   2017, 2021       2020, 2021, 2019                         2017
+25    99    Arizona        Greenlee   94    Arizona          Apache                         2021                   2018                         2021
+26    99    Arizona        Greenlee   95    Arizona         Cochise                         2021                   2017                         2021
+30    99    Arizona        Greenlee 1810 New Mexico         Hidalgo                         2021                     NA                         2021
+32   101    Arizona        Maricopa  100    Arizona          La Paz                         2020                     NA                         2020
+35   101    Arizona        Maricopa  107    Arizona         Yavapai                         2020             2021, 2017                         2020
+36   101    Arizona        Maricopa  108    Arizona            Yuma                         2020                     NA                         2020
+39   104    Arizona            Pima  101    Arizona        Maricopa                         2017             2019, 2020                         2017
+40   104    Arizona            Pima  105    Arizona           Pinal                         2017       2020, 2021, 2019                         2017
+41   104    Arizona            Pima  106    Arizona      Santa Cruz                         2017                     NA                         2017
+42   104    Arizona            Pima  108    Arizona            Yuma                         2017                     NA                         2017
+44   105    Arizona           Pinal   98    Arizona          Graham                         2020       2017, 2021, 2018                         2020
+48   107    Arizona         Yavapai   97    Arizona            Gila                   2021, 2017       2021, 2019, 2020                         2017
+49   107    Arizona         Yavapai  100    Arizona          La Paz                   2021, 2017                     NA                   2017, 2021
+50   107    Arizona         Yavapai  101    Arizona        Maricopa                   2021, 2017             2019, 2020                   2017, 2021
+51   107    Arizona         Yavapai  102    Arizona          Mohave                   2021, 2017                     NA                   2017, 2021
+52   193 California          Fresno  197 California            Inyo                         2017                   2019                         2017
+55   193 California          Fresno  207 California          Merced                         2017                     NA                         2017
+56   193 California          Fresno  209 California            Mono                         2017             2020, 2021                         2017
+58   193 California          Fresno  218 California      San Benito                         2017                     NA                         2017
+60   197 California            Inyo  193 California          Fresno                         2019             2017, 2020                         2019
+61   197 California            Inyo  198 California            Kern                         2019                     NA                         2019
+62   197 California            Inyo  209 California            Mono                         2019             2020, 2021                         2019
+63   197 California            Inyo  219 California  San Bernardino                         2019                   2020                         2019
+64   197 California            Inyo  237 California          Tulare                         2019             2017, 2020                         2019
+65   197 California            Inyo 1752     Nevada           Clark                         2019                     NA                         2019
+66   197 California            Inyo 1755     Nevada       Esmeralda                         2019                     NA                         2019
+67   197 California            Inyo 1762     Nevada             Nye                         2019                     NA                         2019
+69   201 California          Lassen  215 California          Plumas                   2018, 2020             2020, 2019                         2018
+71   201 California          Lassen  229 California          Sierra                   2018, 2020                   2020                         2018
+72   201 California          Lassen 1765     Nevada          Washoe                   2018, 2020             2017, 2020                         2018
+73   202 California     Los Angeles  198 California            Kern                   2017, 2020                     NA                   2017, 2020
+74   202 California     Los Angeles  213 California          Orange                   2017, 2020                   2018                   2017, 2020
+75   202 California     Los Angeles  219 California  San Bernardino                   2017, 2020                   2020                         2017
+76   202 California     Los Angeles  239 California         Ventura                   2017, 2020                   2017                         2020
+77   203 California          Madera  193 California          Fresno                         2018             2017, 2020                         2018
+79   203 California          Madera  207 California          Merced                         2018                     NA                         2018
+80   203 California          Madera  209 California            Mono                         2018             2020, 2021                         2018
+83   205 California        Mariposa  207 California          Merced                         2017                     NA                         2017
+84   205 California        Mariposa  238 California        Tuolumne                         2017                   2018                         2017
+85   206 California       Mendocino  194 California           Glenn                         2017             2018, 2020                         2017
+86   206 California       Mendocino  195 California        Humboldt                         2017                   2020                         2017
+87   206 California       Mendocino  200 California            Lake                         2017             2018, 2020                         2017
+91   208 California           Modoc  201 California          Lassen             2017, 2018, 2019       2020, 2018, 2017                         2019
+92   208 California           Modoc  228 California          Shasta             2017, 2018, 2019       2020, 2021, 2018                   2017, 2019
+93   208 California           Modoc  230 California        Siskiyou             2017, 2018, 2019 2020, 2021, 2017, 2018                         2019
+94   208 California           Modoc 1765     Nevada          Washoe             2017, 2018, 2019             2017, 2020                   2018, 2019
+95   208 California           Modoc 2230     Oregon         Klamath             2017, 2018, 2019       2020, 2021, 2017                   2018, 2019
+96   208 California           Modoc 2231     Oregon            Lake             2017, 2018, 2019       2021, 2018, 2020                   2017, 2019
+98   210 California        Monterey  199 California           Kings                         2020                   2017                         2020
+99   210 California        Monterey  218 California      San Benito                         2020                     NA                         2020
+100  210 California        Monterey  223 California San Luis Obispo                         2020                   2017                         2020
+101  210 California        Monterey  227 California      Santa Cruz                         2020                     NA                         2020
+102  215 California          Plumas  187 California           Butte                         2019             2017, 2020                         2019
+103  215 California          Plumas  201 California          Lassen                         2019       2020, 2018, 2017                         2019
+104  215 California          Plumas  228 California          Shasta                         2019       2020, 2021, 2018                         2019
+105  215 California          Plumas  229 California          Sierra                         2019                   2020                         2019
+106  215 California          Plumas  235 California          Tehama                         2019             2020, 2017                         2019
+107  215 California          Plumas  241 California            Yuba                         2019                   2017                         2019
+108  216 California       Riverside  100    Arizona          La Paz                         2018                     NA                         2018
+109  216 California       Riverside  196 California        Imperial                         2018                     NA                         2018
+111  216 California       Riverside  219 California  San Bernardino                         2018                   2020                         2018
+112  216 California       Riverside  220 California       San Diego                         2018                   2020                         2018
+113  219 California  San Bernardino  100    Arizona          La Paz                         2020                     NA                         2020
+114  219 California  San Bernardino  102    Arizona          Mohave                         2020                     NA                         2020
+115  219 California  San Bernardino  197 California            Inyo                         2020                   2019                         2020
+116  219 California  San Bernardino  198 California            Kern                         2020                     NA                         2020
+118  219 California  San Bernardino  213 California          Orange                         2020                   2018                         2020
+120  219 California  San Bernardino 1752     Nevada           Clark                         2020                     NA                         2020
+121  220 California       San Diego  196 California        Imperial                         2020                     NA                         2020
+122  220 California       San Diego  213 California          Orange                         2020                   2018                         2020
+124  225 California   Santa Barbara  198 California            Kern                   2021, 2017                     NA                   2017, 2021
+125  225 California   Santa Barbara  223 California San Luis Obispo                   2021, 2017                   2017                         2021
+126  225 California   Santa Barbara  239 California         Ventura                   2021, 2017                   2017                         2021
+127  228 California          Shasta  201 California          Lassen                   2021, 2018       2020, 2018, 2017                         2021
+128  228 California          Shasta  208 California           Modoc                   2021, 2018 2017, 2018, 2020, 2019                         2021
+129  228 California          Shasta  215 California          Plumas                   2021, 2018             2020, 2019                   2018, 2021
+131  228 California          Shasta  235 California          Tehama                   2021, 2018             2020, 2017                   2018, 2021
+133  230 California        Siskiyou  191 California       Del Norte                   2017, 2021       2017, 2018, 2020                         2021
+134  230 California        Siskiyou  195 California        Humboldt                   2017, 2021                   2020                   2017, 2021
+135  230 California        Siskiyou  208 California           Modoc                   2017, 2021 2017, 2018, 2020, 2019                         2021
+136  230 California        Siskiyou  228 California          Shasta                   2017, 2021       2020, 2021, 2018                         2017
+138  230 California        Siskiyou 2227     Oregon         Jackson                   2017, 2021             2017, 2018                         2021
+139  230 California        Siskiyou 2229     Oregon       Josephine                   2017, 2021       2020, 2017, 2018                         2021
+141  232 California          Sonoma  200 California            Lake                         2017             2018, 2020                         2017
+142  232 California          Sonoma  204 California           Marin                         2017                     NA                         2017
+152  236 California         Trinity  195 California        Humboldt                         2017                   2020                         2017
+154  236 California         Trinity  228 California          Shasta                         2017       2020, 2021, 2018                         2017
+158  237 California          Tulare  197 California            Inyo                   2017, 2020                   2019                   2017, 2020
+159  237 California          Tulare  198 California            Kern                   2017, 2020                     NA                   2017, 2020
+160  237 California          Tulare  199 California           Kings                   2017, 2020                   2017                         2020
+161  248   Colorado         Boulder  242   Colorado           Adams                         2020                     NA                         2020
+162  248   Colorado         Boulder  249   Colorado      Broomfield                         2020                     NA                         2020
+163  248   Colorado         Boulder  266   Colorado          Gilpin                         2020                     NA                         2020
+165  248   Colorado         Boulder  272   Colorado       Jefferson                         2020                     NA                         2020
+167  248   Colorado         Boulder  304   Colorado            Weld                         2020                     NA                         2020
+168  261   Colorado           Eagle  265   Colorado        Garfield                         2018                   2020                         2018
+169  261   Colorado           Eagle  267   Colorado           Grand                         2018                   2020                         2018
+170  261   Colorado           Eagle  276   Colorado            Lake                         2018                     NA                         2018
+171  261   Colorado           Eagle  291   Colorado          Pitkin                         2018                     NA                         2018
+172  261   Colorado           Eagle  296   Colorado           Routt                         2018                   2020                         2018
+173  261   Colorado           Eagle  301   Colorado          Summit                         2018                     NA                         2018
+175  267   Colorado           Grand  252   Colorado     Clear Creek                         2020                     NA                         2020
+177  267   Colorado           Grand  266   Colorado          Gilpin                         2020                     NA                         2020
+181  267   Colorado           Grand  301   Colorado          Summit                         2020                     NA                         2020
+182  275   Colorado        La Plata  245   Colorado       Archuleta                         2018                     NA                         2018
+183  275   Colorado        La Plata  269   Colorado        Hinsdale                         2018                     NA                         2018
+185  275   Colorado        La Plata  298   Colorado        San Juan                         2018                     NA                         2018
+186  275   Colorado        La Plata 1821 New Mexico        San Juan                         2018                     NA                         2018
+190  277   Colorado         Larimer  304   Colorado            Weld                         2020                     NA                         2020
+192  277   Colorado         Larimer 3136    Wyoming         Laramie                         2020                     NA                         2020
+193  289   Colorado            Park  250   Colorado         Chaffee                         2018                     NA                         2018
+194  289   Colorado            Park  252   Colorado     Clear Creek                         2018                     NA                         2018
+195  289   Colorado            Park  264   Colorado         Fremont                         2018                     NA                         2018
+196  289   Colorado            Park  272   Colorado       Jefferson                         2018                     NA                         2018
+197  289   Colorado            Park  276   Colorado            Lake                         2018                     NA                         2018
+198  289   Colorado            Park  301   Colorado          Summit                         2018                     NA                         2018
+199  289   Colorado            Park  302   Colorado          Teller                         2018                     NA                         2018
+200  550      Idaho           Adams  571      Idaho             Gem                         2018                     NA                         2018
+201  550      Idaho           Adams  573      Idaho           Idaho                         2018       2020, 2017, 2021                         2018
+204  550      Idaho           Adams 2213     Oregon           Baker                         2018                     NA                         2018
+205  550      Idaho           Adams 2244     Oregon         Wallowa                         2018             2021, 2017                         2018
+206  555      Idaho          Blaine  554      Idaho         Bingham                         2018                     NA                         2018
+207  555      Idaho          Blaine  560      Idaho           Butte                         2018                     NA                         2018
+208  555      Idaho          Blaine  561      Idaho           Camas                         2018                     NA                         2018
+209  555      Idaho          Blaine  564      Idaho          Cassia                         2018                   2020                         2018
+211  555      Idaho          Blaine  568      Idaho          Elmore                         2018                     NA                         2018
+212  555      Idaho          Blaine  580      Idaho         Lincoln                         2018                     NA                         2018
+213  555      Idaho          Blaine  582      Idaho        Minidoka                         2018                     NA                         2018
+214  555      Idaho          Blaine  587      Idaho           Power                         2018                     NA                         2018
+215  567      Idaho          Custer  555      Idaho          Blaine                         2017                   2018                         2017
+216  567      Idaho          Custer  556      Idaho           Boise                         2017                     NA                         2017
+217  567      Idaho          Custer  560      Idaho           Butte                         2017                     NA                         2017
+218  567      Idaho          Custer  568      Idaho          Elmore                         2017                     NA                         2017
+219  567      Idaho          Custer  578      Idaho           Lemhi                         2017       2018, 2020, 2021                         2017
+221  573      Idaho           Idaho  550      Idaho           Adams             2020, 2017, 2021             2018, 2020                   2017, 2021
+222  573      Idaho           Idaho  566      Idaho      Clearwater             2020, 2017, 2021                   2021                   2017, 2020
+223  573      Idaho           Idaho  578      Idaho           Lemhi             2020, 2017, 2021       2018, 2020, 2021                         2017
+224  573      Idaho           Idaho  579      Idaho           Lewis             2020, 2017, 2021             2017, 2021                         2020
+225  573      Idaho           Idaho  583      Idaho       Nez Perce             2020, 2017, 2021             2017, 2021                         2020
+227  573      Idaho           Idaho 1632    Montana        Missoula             2020, 2017, 2021                   2017                   2020, 2021
+228  573      Idaho           Idaho 1641    Montana         Ravalli             2020, 2017, 2021                   2017                   2020, 2021
+229  573      Idaho           Idaho 2244     Oregon         Wallowa             2020, 2017, 2021             2021, 2017                         2020
+230  578      Idaho           Lemhi  560      Idaho           Butte                         2021                     NA                         2021
+231  578      Idaho           Lemhi  565      Idaho           Clark                         2021                     NA                         2021
+235  578      Idaho           Lemhi 1601    Montana      Beaverhead                         2021             2020, 2017                         2021
+236  578      Idaho           Lemhi 1641    Montana         Ravalli                         2021                   2017                         2021
+237  588      Idaho        Shoshone  553      Idaho         Benewah                         2021                     NA                         2021
+238  588      Idaho        Shoshone  557      Idaho          Bonner                         2021                     NA                         2021
+240  588      Idaho        Shoshone  576      Idaho        Kootenai                         2021                     NA                         2021
+241  588      Idaho        Shoshone  577      Idaho           Latah                         2021                     NA                         2021
+242  588      Idaho        Shoshone 1631    Montana         Mineral                         2021                   2017                         2021
+244  591      Idaho          Valley  550      Idaho           Adams             2017, 2020, 2018             2018, 2020                         2017
+245  591      Idaho          Valley  556      Idaho           Boise             2017, 2020, 2018                     NA             2017, 2018, 2020
+246  591      Idaho          Valley  567      Idaho          Custer             2017, 2020, 2018       2017, 2021, 2018                         2020
+247  591      Idaho          Valley  571      Idaho             Gem             2017, 2020, 2018                     NA             2017, 2018, 2020
+248  591      Idaho          Valley  573      Idaho           Idaho             2017, 2020, 2018       2020, 2017, 2021                         2018
+249  591      Idaho          Valley  578      Idaho           Lemhi             2017, 2020, 2018       2018, 2020, 2021                         2017
+251  592      Idaho      Washington  571      Idaho             Gem                         2018                     NA                         2018
+252  592      Idaho      Washington  586      Idaho         Payette                         2018                     NA                         2018
+253  592      Idaho      Washington 2213     Oregon           Baker                         2018                     NA                         2018
+254  592      Idaho      Washington 2235     Oregon         Malheur                         2018                     NA                         2018
+255 1605    Montana          Carbon 1602    Montana        Big Horn                         2021                     NA                         2021
+257 1605    Montana          Carbon 1648    Montana      Stillwater                         2021                     NA                         2021
+258 1605    Montana          Carbon 1656    Montana     Yellowstone                         2021                     NA                         2021
+259 1605    Montana          Carbon 3127    Wyoming        Big Horn                         2021                     NA                         2021
+260 1605    Montana          Carbon 3140    Wyoming            Park                         2021                   2019                         2021
+266 1622    Montana       Jefferson 1612    Montana      Deer Lodge                         2021                   2017                         2021
+267 1622    Montana       Jefferson 1616    Montana        Gallatin                         2021                     NA                         2021
+268 1622    Montana       Jefferson 1625    Montana Lewis and Clark                         2021                   2017                         2021
+269 1622    Montana       Jefferson 1628    Montana         Madison                         2021                     NA                         2021
+270 1622    Montana       Jefferson 1639    Montana          Powell                         2021                   2017                         2021
+271 1622    Montana       Jefferson 1647    Montana      Silver Bow                         2021                     NA                         2021
+272 1625    Montana Lewis and Clark 1604    Montana      Broadwater                         2017                   2021                         2017
+273 1625    Montana Lewis and Clark 1607    Montana         Cascade                         2017                     NA                         2017
+275 1625    Montana Lewis and Clark 1622    Montana       Jefferson                         2017                   2021                         2017
+276 1625    Montana Lewis and Clark 1630    Montana         Meagher                         2017                   2021                         2017
+279 1627    Montana         Lincoln  557      Idaho          Bonner                   2017, 2021                     NA                   2017, 2021
+280 1627    Montana         Lincoln  559      Idaho        Boundary                   2017, 2021                     NA                   2017, 2021
+281 1627    Montana         Lincoln 1615    Montana        Flathead                   2017, 2021                   2017                         2021
+283 1631    Montana         Mineral  566      Idaho      Clearwater                         2017                   2021                         2017
+284 1631    Montana         Mineral  588      Idaho        Shoshone                         2017                   2021                         2017
+287 1632    Montana        Missoula  566      Idaho      Clearwater                         2017                   2021                         2017
+291 1632    Montana        Missoula 1624    Montana            Lake                         2017                     NA                         2017
+296 1637    Montana         Pondera 1608    Montana        Chouteau                         2017                     NA                         2017
+298 1637    Montana         Pondera 1618    Montana         Glacier                         2017                     NA                         2017
+299 1637    Montana         Pondera 1626    Montana         Liberty                         2017                     NA                         2017
+301 1637    Montana         Pondera 1651    Montana           Toole                         2017                     NA                         2017
+305 1639    Montana          Powell 1622    Montana       Jefferson                         2017                   2021                         2017
+308 1645    Montana         Sanders  557      Idaho          Bonner                   2021, 2017                     NA                   2017, 2021
+309 1645    Montana         Sanders  588      Idaho        Shoshone                   2021, 2017                   2021                         2017
+310 1645    Montana         Sanders 1615    Montana        Flathead                   2021, 2017                   2017                         2021
+311 1645    Montana         Sanders 1624    Montana            Lake                   2021, 2017                     NA                   2017, 2021
+313 1645    Montana         Sanders 1631    Montana         Mineral                   2021, 2017                   2017                         2021
+314 1645    Montana         Sanders 1632    Montana        Missoula                   2021, 2017                   2017                         2021
+316 1753     Nevada         Douglas  192 California       El Dorado                         2020                   2021                         2020
+318 1753     Nevada         Douglas  214 California          Placer                         2020                     NA                         2020
+319 1753     Nevada         Douglas 1750     Nevada     Carson City                         2020                     NA                         2020
+321 1754     Nevada            Elko  564      Idaho          Cassia                   2019, 2018                   2020                   2018, 2019
+322 1754     Nevada            Elko  585      Idaho          Owyhee                   2019, 2018                     NA                   2018, 2019
+323 1754     Nevada            Elko  590      Idaho      Twin Falls                   2019, 2018                   2020                   2018, 2019
+324 1754     Nevada            Elko 1756     Nevada          Eureka                   2019, 2018                     NA                   2018, 2019
+325 1754     Nevada            Elko 1757     Nevada        Humboldt                   2019, 2018                   2018                         2019
+326 1754     Nevada            Elko 1758     Nevada          Lander                   2019, 2018                     NA                   2018, 2019
+327 1754     Nevada            Elko 1766     Nevada      White Pine                   2019, 2018                     NA                   2018, 2019
+328 1754     Nevada            Elko 2783       Utah       Box Elder                   2019, 2018                     NA                   2018, 2019
+329 1754     Nevada            Elko 2804       Utah          Tooele                   2019, 2018                     NA                   2018, 2019
+330 1799 New Mexico          Catron   94    Arizona          Apache       2020, 2021, 2018, 2017                   2018             2017, 2020, 2021
+331 1799 New Mexico          Catron   99    Arizona        Greenlee       2020, 2021, 2018, 2017       2021, 2020, 2018                         2017
+332 1799 New Mexico          Catron 1801 New Mexico          Cibola       2020, 2021, 2018, 2017                     NA       2017, 2018, 2020, 2021
+333 1799 New Mexico          Catron 1807 New Mexico           Grant       2020, 2021, 2018, 2017       2020, 2021, 2017                         2018
+334 1799 New Mexico          Catron 1825 New Mexico          Sierra       2020, 2021, 2018, 2017                     NA       2017, 2018, 2020, 2021
+335 1799 New Mexico          Catron 1826 New Mexico         Socorro       2020, 2021, 2018, 2017                   2020             2017, 2018, 2021
+338 1807 New Mexico           Grant 1810 New Mexico         Hidalgo                         2020                     NA                         2020
+339 1807 New Mexico           Grant 1814 New Mexico            Luna                         2020                     NA                         2020
+340 1807 New Mexico           Grant 1825 New Mexico          Sierra                         2020                     NA                         2020
+341 1812 New Mexico         Lincoln 1800 New Mexico          Chaves                         2019                     NA                         2019
+342 1812 New Mexico         Lincoln 1804 New Mexico          Debaca                         2019                     NA                         2019
+343 1812 New Mexico         Lincoln 1808 New Mexico       Guadalupe                         2019                     NA                         2019
+344 1812 New Mexico         Lincoln 1817 New Mexico           Otero                         2019                     NA                         2019
+345 1812 New Mexico         Lincoln 1825 New Mexico          Sierra                         2019                     NA                         2019
+346 1812 New Mexico         Lincoln 1826 New Mexico         Socorro                         2019                   2020                         2019
+347 1812 New Mexico         Lincoln 1828 New Mexico        Torrance                         2019                     NA                         2019
+349 1826 New Mexico         Socorro 1801 New Mexico          Cibola                         2020                     NA                         2020
+350 1826 New Mexico         Socorro 1812 New Mexico         Lincoln                         2020                   2019                         2020
+351 1826 New Mexico         Socorro 1825 New Mexico          Sierra                         2020                     NA                         2020
+352 1826 New Mexico         Socorro 1828 New Mexico        Torrance                         2020                     NA                         2020
+353 1826 New Mexico         Socorro 1830 New Mexico        Valencia                         2020                     NA                         2020
+354 2215     Oregon       Clackamas 2226     Oregon      Hood River                         2020                   2017                         2020
+356 2215     Oregon       Clackamas 2238     Oregon       Multnomah                         2020                   2017                         2020
+358 2215     Oregon       Clackamas 2246     Oregon      Washington                         2020                     NA                         2020
+359 2215     Oregon       Clackamas 2248     Oregon         Yamhill                         2020                     NA                         2020
+360 2221     Oregon       Deschutes 2219     Oregon           Crook                         2017                     NA                         2017
+361 2221     Oregon       Deschutes 2225     Oregon          Harney                         2017                     NA                         2017
+364 2221     Oregon       Deschutes 2231     Oregon            Lake                         2017       2021, 2018, 2020                         2017
+367 2222     Oregon         Douglas 2218     Oregon            Coos       2021, 2018, 2017, 2020                     NA       2017, 2018, 2020, 2021
+368 2222     Oregon         Douglas 2220     Oregon           Curry       2021, 2018, 2017, 2020             2017, 2018                   2020, 2021
+369 2222     Oregon         Douglas 2227     Oregon         Jackson       2021, 2018, 2017, 2020             2017, 2018                   2020, 2021
+370 2222     Oregon         Douglas 2229     Oregon       Josephine       2021, 2018, 2017, 2020       2020, 2017, 2018                         2021
+371 2222     Oregon         Douglas 2230     Oregon         Klamath       2021, 2018, 2017, 2020       2020, 2021, 2017                         2018
+373 2224     Oregon           Grant 2213     Oregon           Baker                         2021                     NA                         2021
+374 2224     Oregon           Grant 2219     Oregon           Crook                         2021                     NA                         2021
+375 2224     Oregon           Grant 2225     Oregon          Harney                         2021                     NA                         2021
+376 2224     Oregon           Grant 2235     Oregon         Malheur                         2021                     NA                         2021
+377 2224     Oregon           Grant 2237     Oregon          Morrow                         2021                     NA                         2021
+378 2224     Oregon           Grant 2242     Oregon        Umatilla                         2021                     NA                         2021
+379 2224     Oregon           Grant 2243     Oregon           Union                         2021                     NA                         2021
+380 2224     Oregon           Grant 2247     Oregon         Wheeler                         2021                     NA                         2021
+381 2228     Oregon       Jefferson 2219     Oregon           Crook                         2017                     NA                         2017
+385 2228     Oregon       Jefferson 2245     Oregon           Wasco                         2017                   2020                         2017
+386 2228     Oregon       Jefferson 2247     Oregon         Wheeler                         2017                     NA                         2017
+394 2230     Oregon         Klamath 2221     Oregon       Deschutes                   2020, 2017                   2017                         2020
+396 2230     Oregon         Klamath 2227     Oregon         Jackson                   2020, 2017             2017, 2018                         2020
+397 2230     Oregon         Klamath 2231     Oregon            Lake                   2020, 2017       2021, 2018, 2020                         2017
+399 2231     Oregon            Lake  208 California           Modoc             2021, 2018, 2020 2017, 2018, 2020, 2019                         2021
+400 2231     Oregon            Lake 1765     Nevada          Washoe             2021, 2018, 2020             2017, 2020                   2018, 2021
+401 2231     Oregon            Lake 2221     Oregon       Deschutes             2021, 2018, 2020                   2017             2018, 2020, 2021
+402 2231     Oregon            Lake 2225     Oregon          Harney             2021, 2018, 2020                     NA             2018, 2020, 2021
+403 2231     Oregon            Lake 2230     Oregon         Klamath             2021, 2018, 2020       2020, 2021, 2017                         2018
+404 2232     Oregon            Lane 2214     Oregon          Benton             2021, 2018, 2017                     NA             2017, 2018, 2021
+405 2232     Oregon            Lane 2221     Oregon       Deschutes             2021, 2018, 2017                   2017                   2018, 2021
+407 2232     Oregon            Lane 2230     Oregon         Klamath             2021, 2018, 2017       2020, 2021, 2017                         2018
+408 2232     Oregon            Lane 2233     Oregon         Lincoln             2021, 2018, 2017                     NA             2017, 2018, 2021
+409 2232     Oregon            Lane 2234     Oregon            Linn             2021, 2018, 2017             2017, 2020                   2018, 2021
+410 2244     Oregon         Wallowa  550      Idaho           Adams                         2021             2018, 2020                         2021
+413 2244     Oregon         Wallowa 2213     Oregon           Baker                         2021                     NA                         2021
+414 2244     Oregon         Wallowa 2242     Oregon        Umatilla                         2021                     NA                         2021
+415 2244     Oregon         Wallowa 2243     Oregon           Union                         2021                     NA                         2021
+420 2245     Oregon           Wasco 2223     Oregon         Gilliam                         2020                     NA                         2020
+421 2245     Oregon           Wasco 2226     Oregon      Hood River                         2020                   2017                         2020
+424 2245     Oregon           Wasco 2240     Oregon         Sherman                         2020                     NA                         2020
+425 2245     Oregon           Wasco 2247     Oregon         Wheeler                         2020                     NA                         2020
+426 2245     Oregon           Wasco 2977 Washington       Klickitat                         2020                   2018                         2020
+427 2788       Utah        Duchesne 2785       Utah          Carbon                         2020                     NA                         2020
+428 2788       Utah        Duchesne 2786       Utah         Daggett                         2020                     NA                         2020
+429 2788       Utah        Duchesne 2803       Utah          Summit                         2020                     NA                         2020
+430 2788       Utah        Duchesne 2805       Utah          Uintah                         2020                     NA                         2020
+431 2788       Utah        Duchesne 2806       Utah            Utah                         2020             2018, 2017                         2020
+432 2788       Utah        Duchesne 2807       Utah         Wasatch                         2020             2017, 2018                         2020
+433 2789       Utah           Emery 2785       Utah          Carbon                         2018                     NA                         2018
+434 2789       Utah           Emery 2791       Utah           Grand                         2018                     NA                         2018
+436 2789       Utah           Emery 2802       Utah          Sevier                         2018                     NA                         2018
+437 2789       Utah           Emery 2805       Utah          Uintah                         2018                     NA                         2018
+438 2789       Utah           Emery 2809       Utah           Wayne                         2018                     NA                         2018
+439 2806       Utah            Utah 2785       Utah          Carbon                         2018                     NA                         2018
+442 2806       Utah            Utah 2799       Utah       Salt Lake                         2018                     NA                         2018
+444 2806       Utah            Utah 2804       Utah          Tooele                         2018                     NA                         2018
+446 2808       Utah      Washington  102    Arizona          Mohave                   2018, 2020                     NA                   2018, 2020
+447 2808       Utah      Washington 1759     Nevada         Lincoln                   2018, 2020                     NA                   2018, 2020
+448 2808       Utah      Washington 2792       Utah            Iron                   2018, 2020                   2017                   2018, 2020
+449 2808       Utah      Washington 2794       Utah            Kane                   2018, 2020                     NA                   2018, 2020
+450 2961 Washington          Chelan 2966 Washington         Douglas                   2018, 2021                     NA                   2018, 2021
+451 2961 Washington          Chelan 2974 Washington            King                   2018, 2021                   2017                   2018, 2021
+452 2961 Washington          Chelan 2976 Washington        Kittitas                   2018, 2021                   2017                   2018, 2021
+454 2961 Washington          Chelan 2986 Washington          Skagit                   2018, 2021                     NA                   2018, 2021
+455 2961 Washington          Chelan 2988 Washington       Snohomish                   2018, 2021                     NA                   2018, 2021
+456 2976 Washington        Kittitas 2961 Washington          Chelan                         2017             2018, 2021                         2017
+457 2976 Washington        Kittitas 2966 Washington         Douglas                         2017                     NA                         2017
+458 2976 Washington        Kittitas 2970 Washington           Grant                         2017                     NA                         2017
+461 2977 Washington       Klickitat 2223     Oregon         Gilliam                         2018                     NA                         2018
+462 2977 Washington       Klickitat 2226     Oregon      Hood River                         2018                   2017                         2018
+463 2977 Washington       Klickitat 2237     Oregon          Morrow                         2018                     NA                         2018
+464 2977 Washington       Klickitat 2240     Oregon         Sherman                         2018                     NA                         2018
+465 2977 Washington       Klickitat 2245     Oregon           Wasco                         2018                   2020                         2018
+466 2977 Washington       Klickitat 2960 Washington          Benton                         2018                     NA                         2018
+467 2977 Washington       Klickitat 2987 Washington        Skamania                         2018                   2020                         2018
+468 2977 Washington       Klickitat 2996 Washington          Yakima                         2018             2021, 2017                         2018
+470 2981 Washington        Okanogan 2966 Washington         Douglas                   2021, 2018                     NA                   2018, 2021
+471 2981 Washington        Okanogan 2967 Washington           Ferry                   2021, 2018                     NA                   2018, 2021
+472 2981 Washington        Okanogan 2970 Washington           Grant                   2021, 2018                     NA                   2018, 2021
+473 2981 Washington        Okanogan 2979 Washington         Lincoln                   2021, 2018                     NA                   2018, 2021
+474 2981 Washington        Okanogan 2986 Washington          Skagit                   2021, 2018                     NA                   2018, 2021
+475 2981 Washington        Okanogan 2994 Washington         Whatcom                   2021, 2018                     NA                   2018, 2021
+476 2987 Washington        Skamania 2226     Oregon      Hood River                         2020                   2017                         2020
+477 2987 Washington        Skamania 2238     Oregon       Multnomah                         2020                   2017                         2020
+478 2987 Washington        Skamania 2963 Washington           Clark                         2020                     NA                         2020
+479 2987 Washington        Skamania 2965 Washington         Cowlitz                         2020                     NA                         2020
+480 2987 Washington        Skamania 2977 Washington       Klickitat                         2020                   2018                         2020
+481 2987 Washington        Skamania 2978 Washington           Lewis                         2020                     NA                         2020
+482 2987 Washington        Skamania 2996 Washington          Yakima                         2020             2021, 2017                         2020
+483 2996 Washington          Yakima 2960 Washington          Benton                         2021                     NA                         2021
+484 2996 Washington          Yakima 2970 Washington           Grant                         2021                     NA                         2021
+485 2996 Washington          Yakima 2974 Washington            King                         2021                   2017                         2021
+486 2996 Washington          Yakima 2976 Washington        Kittitas                         2021                   2017                         2021
+487 2996 Washington          Yakima 2977 Washington       Klickitat                         2021                   2018                         2021
+488 2996 Washington          Yakima 2978 Washington           Lewis                         2021                     NA                         2021
+489 2996 Washington          Yakima 2984 Washington          Pierce                         2021                   2017                         2021
+490 2996 Washington          Yakima 2987 Washington        Skamania                         2021                   2020                         2021
+491 3126    Wyoming          Albany  271   Colorado         Jackson                         2018                   2020                         2018
+492 3126    Wyoming          Albany  277   Colorado         Larimer                         2018                   2020                         2018
+493 3126    Wyoming          Albany 3129    Wyoming          Carbon                         2018                   2020                         2018
+494 3126    Wyoming          Albany 3130    Wyoming        Converse                         2018                     NA                         2018
+495 3126    Wyoming          Albany 3136    Wyoming         Laramie                         2018                     NA                         2018
+497 3140    Wyoming            Park 1605    Montana          Carbon                         2019                   2021                         2019
+498 3140    Wyoming            Park 1616    Montana        Gallatin                         2019                     NA                         2019
+499 3140    Wyoming            Park 1634    Montana            Park                         2019                   2021                         2019
+500 3140    Wyoming            Park 3127    Wyoming        Big Horn                         2019                     NA                         2019
+501 3140    Wyoming            Park 3132    Wyoming         Fremont                         2019                     NA                         2019
+502 3140    Wyoming            Park 3134    Wyoming     Hot Springs                         2019                     NA                         2019
+503 3140    Wyoming            Park 3145    Wyoming           Teton                         2019                     NA                         2019
+504 3140    Wyoming            Park 3147    Wyoming        Washakie                         2019                     NA                         2019
