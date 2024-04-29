@@ -44,6 +44,15 @@ names(fire_counties) <- c('from','cnt1_state','cnt1_county','cnt1_HASC',
                           'fire_year1','fire_year2')
 dim(fire_counties)
 
+## make a map
+library(emojifont)
+load.emojifont('EmojiOne.ttf')
+plot(counties[unique(fire_counties$from),],type='n')
+plot(counties,add=T)
+cent <- centroids(fires)
+cent_geom <- geom(cent)
+text(cent_geom[,'x'],cent_geom[,'y'],labels=emoji('fire'),col=2,cex=1.5,family='OpenSansEmoji')
+
 fire_counties$eligible_year <- apply(fire_counties[,c('fire_year1','fire_year2')], 1, function(yrs) sort(setdiff(yrs[[1]],yrs[[2]])))
 options(width=170)
 options(setWidthOnResize=TRUE)
